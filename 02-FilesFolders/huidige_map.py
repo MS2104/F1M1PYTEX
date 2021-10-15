@@ -19,9 +19,10 @@ while True:
     command_line = input(">")
 
     if command_line == "help":
-        print("getdir - Grabs the directory this program has been executed in.")
-        print("help - Do I really have to explain this one?")
-        print("mkdir - Creates a folder in the directory that this program has been executed in.")
+        print("getdir - Grabs the directory this program has been executed in." + '\n'
+        "help - Brings up this list" + '\n'
+        "mkdir - Creates a folder in the directory that this program has been executed in."
+        )
 
     if command_line == 'getdir':
         getdir()
